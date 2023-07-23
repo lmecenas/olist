@@ -54,14 +54,3 @@
 # MAGIC
 # MAGIC SELECT '2018-01-01' as dtReference, *
 # MAGIC from tb_group
-
-# COMMAND ----------
-
-1) dsadsasdasdasad sdadsadsa dasdasdsa
-2
-3
-4
-5
-6
-7
-
