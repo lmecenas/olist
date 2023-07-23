@@ -20,6 +20,7 @@
 # MAGIC SELECT 
 # MAGIC
 # MAGIC idVendedor,
+# MAGIC count(distinct descUF) as qtdPedidoUFsPedidos,
 # MAGIC count(distinct case when descUF = 'AC' then idPedido end)/ count(distinct idPedido) as pctPedidoAC,
 # MAGIC count(distinct case when descUF = 'AL' then idPedido end)/ count(distinct idPedido) as pctPedidoAL,
 # MAGIC count(distinct case when descUF = 'AM' then idPedido end)/ count(distinct idPedido) as pctPedidoAM,
